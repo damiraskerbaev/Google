@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .search-container {
+            text-align: center;
+        }
+        .search-container input[type="search"] {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 20px;
+        }
+        .search-container input[type="submit"] {
+            padding: 10px 20px;
+            margin-left: 10px;
+            border: none;
+            color: white;
+            background-color: #4285f4;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <form action="https://www.google.com/search" method="get">
+            <input type="search" name="q">
+            <input type="submit" value="Izlew">
+        </form>
+    </div>
+</body>
+</html>
